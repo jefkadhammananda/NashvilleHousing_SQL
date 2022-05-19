@@ -89,7 +89,7 @@ From PortofolioProject.dbo.NashvilleHousing
 Select OwnerAddress
 From PortofolioProject.dbo.NashvilleHousing
 
---memisahkan owneraddress menjadi 3 bagian yaitu kolom address, kolom, dan state dengan metode PARSENAME
+--memisahkan owneraddress menjadi 3 bagian yaitu kolom address, city, dan state dengan metode PARSENAME
 --PARSENAME dapat berfungsi dengan (.) sedangkan pada owneraddress terpisahkan dengan (,) sehingga digunakan REPLACE
 
 Select
