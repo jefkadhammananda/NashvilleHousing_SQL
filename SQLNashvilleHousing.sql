@@ -155,7 +155,7 @@ SET SoldAsVacant = CASE When SoldAsVacant = 'Y' THEN 'Yes'
 
 --menghilangkan duplikat
 --menggunakan query ROW_NUMBER untuk melihat seberapa banyak data yang sama, bernilai 1 apabila data unique, 2 apabila terdapat 1 duplikat, 3 apabila terdapat 2 duplikat dan seterusnya
---menggunakan partition untuk memulai perhitungan data pada setiap partisi dan apabila ada data yang duplikat maka rownumber akan bernilai 2 dan untuk melakukan perhitungan row number dengan data yang berbeda lagi akan dimulai dari 1 
+--menggunakan partition untuk memulai perhitungan data pada setiap partisi dan apabila ada data yang duplikat maka rownumber akan bernilai 2 dan untuk melakukan perhitungan rownumber dengan data yang berbeda lagi akan dimulai dari 1 
 
 WITH RowNumCTE AS(
 Select *,
