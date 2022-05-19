@@ -1,1 +1,1 @@
-# Melakukan data cleansing menggunakan SQL
+# Melakukan data cleaning menggunakan SQL
